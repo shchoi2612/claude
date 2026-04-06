@@ -1,0 +1,21 @@
+# Credentials & secrets
+.credentials.json
+
+# Sensitive / ephemeral files
+history.jsonl
+sessions/
+cache/
+paste-cache/
+shell-snapshots/
+file-history/
+backups/
+telemetry/
+mcp-needs-auth-cache.json
+session-env/
+tasks/
+plans/
+ide/
+plugins/
+
+# Project-specific data (large / private)
+projects/
