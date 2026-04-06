@@ -1,0 +1,21 @@
+{
+  "statusLine": {
+    "type": "command",
+    "command": "bash $HOME/.claude/statusline-command.sh"
+  },
+  "extraKnownMarketplaces": {
+    "bkit-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "popup-studio-ai/bkit-claude-code"
+      }
+    },
+    "superpowers-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "obra/superpowers-marketplace"
+      },
+      "autoUpdate": true
+    }
+  }
+}
