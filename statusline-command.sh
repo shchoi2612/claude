@@ -5,7 +5,7 @@ input=$(cat)
 # Run the existing ccstatusline with the same input
 first_line=$(echo "$input" | npx -y ccstatusline@latest 2>/dev/null)
 
-# Extract context used percentage (pre-calculated field)
+# Extract context used percentage
 used=$(echo "$input" | jq -r '.context_window.used_percentage // empty')
 
 # Build context line
